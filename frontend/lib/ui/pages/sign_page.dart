@@ -119,9 +119,11 @@ class SignPage extends StatelessWidget {
               //sign in button
               MyButton(
                 onTap: signUserIn,
+                title: "Cadastrar",
+                tam: 20,
+                tamHorizontal: 25,
+                tamCircular: 8,
               ),
-              
-
             ],
           ),
         ),

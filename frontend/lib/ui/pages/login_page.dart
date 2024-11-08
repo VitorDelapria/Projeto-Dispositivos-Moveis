@@ -29,7 +29,7 @@ class LoginPage extends StatelessWidget {
                 // Logo do App
                 Icons.lock,
                 size: 100,
-                color: const Color(0xFF6B1E00),
+                color: Color(0xFF6B1E00),
               ),
               const SizedBox(height: 50),
               Text(
@@ -80,6 +80,10 @@ class LoginPage extends StatelessWidget {
               //sign in button
               MyButton(
                 onTap: signUserIn,
+                title: "Entrar",
+                tam: 20,
+                tamHorizontal: 25,
+                tamCircular: 8,
               ),
 
               const SizedBox(height: 25),
